@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>w3schools CSS Opacity/Transparency</title>
+            <style>
+                body{
+                       margin:0;
+                       line-height: 1.8;
+                       font-size: 20px;
+                }
+
+                ul{
+                       list-style-type: none;
+                       margin: 0;
+                       padding: 0;
+                }
+
+                ul.verticalA {
+                      
+                       width: 25%;
+                       height: 100%;
+                       position: fixed;
+                       background-color: #f1f1f1;
+                       overflow: auto;
+                }
+
+               
+
+                li.verticalB a {
+                        display: block;
+                        color: black;
+                        padding: 10px 20px;
+                        text-decoration: none;
+                }
+
+                li.verticalB a:hover{
+                        background-color: #555;        
+                }
+
+                li a.active{
+                        background-color: #04aa6d;
+                        ;
+                }
+
+                ul.horizontalA{
+                        overflow: hidden; 
+                        display: flex;
+                        flex-direction: row;
+                        background-color: #333;  
+                       margin-left: -70px;
+                        
+                }
+
+                 li.horizontalB{
+                        padding: 10px;
+            
+                }
+
+                li.horizontalB a{
+                        list-style-type: none;
+                        color: white;
+                        text-decoration: none;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        padding: 20px 8px 60px 8px;
+                        font-size: 15px;
+                }
+
+                li.horizontalB a:hover{
+                        background-color: black;
+                } 
+
+                li.horizontalB a.active{
+                        background-color: #04aa6d;
+                        ;
+                }
+
+               div.body{
+                        margin-left: 30%;
+                        padding: 1px;
+                        height: 1000px;
+               }
+
+               div.imagecontainer{
+                        width: 100%;
+                        height: 300px;
+               }
+
+               img{
+                        height: 250px;
+                        width: 31%;
+                        margin-right: 5px;
+                       
+               }
+
+               img.a{
+
+                         opacity: 0.5;
+
+               }
+
+               img:hover.a{
+                        opacity: 1.0;
+               }
+
+               img:hover.b{
+
+                        opacity: 0.5;
+
+                }
+
+                .blockA1 {
+                        background-color: #4CAF50;
+                        padding: 10px;
+                        opacity: 0.1;
+                }
+
+                .blockA2 {
+                        background-color: #4CAF50;
+                        padding: 10px;
+                        opacity: 0.3;
+                }
+
+                .blockA3 {
+                        background-color: #4CAF50;
+                        padding: 10px;
+                        opacity: 0.6;
+                }
+
+                .blockA4 {
+                        background-color: #4CAF50;
+                        padding: 10px;
+                }
+
+                .blockB1 {
+                    background: rgb(76, 175, 80);
+                    padding: 10px;
+                    background: rgba(76, 175, 80, 0.1);
+                }
+
+                .blockB2 {
+                    background: rgb(76, 175, 80);
+                    padding: 10px;
+                    background: rgba(76, 175, 80, 0.3);
+                }
+
+                .blockB3 {
+                    background: rgb(76, 175, 80);
+                    padding: 10px;
+                    background: rgba(76, 175, 80, 0.6);
+                }
+              
+                .blockB4 {
+                    background: rgb(76, 175, 80);
+                    padding: 10px;
+                }
+              
+
+            </style>
+        </head>
+            <body>
+                <ul class="verticalA">
+                    <li class="verticalB"> <a href="#header"> <b> CSS Tutorial </b> </a> </li>
+                    <li class="verticalB"> <a href="#introduction"> Introduction </a> </li>
+                    <li class="verticalB"> <a href="#syntax"> Syntax </a> </li>
+                    <li class="verticalB"> <a href="#selectors"> Selectors </a> </li>
+                    <li class="verticalB"> <a href="#how to"> How To </a> </li>
+                    <li class="verticalB"> <a href="#comments"> Comments </a> </li>
+                    <li class="verticalB"> <a href="#colors"> Colors </a> </li>
+                    <li class="verticalB"> <a href="#backgrounds"> Backgrounds </a> </li>
+                    <li class="verticalB"> <a href="#borders"> Borders </a> </li>
+                    <li class="verticalB"> <a href="#borders"> Borders </a> </li>
+                    <li class="verticalB"> <a href="#borders"> Borders </a> </li>
+                    <li class="verticalB"> <a href="#margins"> Margins </a> </li>
+                    <li class="verticalB"> <a href="#padding"> Padding</a> </li>
+                    <li class="verticalB"> <a href="#height/width"> Height/Width </a> </li>
+                    <li class="verticalB"> <a href="#box model"> Box Model </a> </li>
+                    <li class="verticalB"> <a href="#outline"> Outline </a> </li>
+                    <li class="verticalB"> <a href="#text"> Text </a> </li>
+                    <li class="verticalB"> <a href="#fonts"> Fonts </a> </li>
+                    <li class="verticalB"> <a href="#icons"> Icons </a> </li>
+                    <li class="verticalB"> <a href="#links"> Links </a> </li>
+                    <li class="verticalB"> <a href="#lists"> Lists </a> </li>
+                    <li class="verticalB"> <a href="#tables"> Tables </a> </li>
+                    <li class="verticalB"> <a href="#display"> Display </a> </li>
+                    <li class="verticalB"> <a href="#max-width"> Max-width </a> </li>
+                    <li class="verticalB"> <a href="#position"> Position </a> </li>
+                    <li class="verticalB"> <a href="#z-index"> Z-index </a> </li>
+                    <li class="verticalB"> <a href="#overflow"> Overflow </a> </li>
+                    <li class="verticalB"> <a href="#float"> Float </a> </li>
+                    <li class="verticalB"> <a href="#inline-block"> Inline-block </a> </li>
+                    <li class="verticalB"> <a href="#Align"> Align </a> </li>
+                    <li class="verticalB"> <a href="#combinators"> Combinators </a> </li>
+                    <li class="verticalB"> <a href="#pseudo-element"> Pseudo-element </a> </li>
+                    <li class="verticalB"> <a href="#opacity" class="active"> Opacity </a> </li>
+                    <li class="verticalB"> <a href="#navigation bar"> Navigation Bar </a> </li>
+                    <li class="verticalB"> <a href="#dropdowns"> CSS Dropdowns </a> </li>
+                    <li class="verticalB"> <a href="#image gallery"> CSS Image Gallery </a> </li>
+                    <li class="verticalB"> <a href="#image sprites"> CSS Image Sprites </a> </li>
+                    <li class="verticalB"> <a href="#attr selectors"> CSS Attr Selectors </a> </li>
+                    <li class="verticalB"> <a href="#forms"> CSS Forms </a> </li>
+                    <li class="verticalB"> <a href="#counters"> CSS Counters </a> </li>
+                    <li class="verticalB"> <a href="#website layout"> CSS Website Layout </a> </li>
+                    <li class="verticalB"> <a href="#units"> CSS Units </a> </li>
+                    <li class="verticalB"> <a href="#specificity"> CSS Specificity </a> </li>
+                    <li class="verticalB"> <a href="#important"> CSS !important </a> </li>
+                    <li class="verticalB"> <a href="#math functions"> CSS Math Functions </a> </li>
+
+                </ul>
+
+                
+
+                <div class="body">
+                <ul class="horizontalA">
+                    <li class="horizontalB"> <a href="#html" > HTML </a> </li>
+                    <li class="horizontalB"> <a href="#css" class="active"> CSS </a> </li>
+                    <li class="horizontalB"> <a href="#javascript" > JAVASCRIPT </a> </li>
+                    <li class="horizontalB"> <a href="#sql" > SQL </a> </li>
+                    <li class="horizontalB"> <a href="#python" > PYTHON </a> </li>
+                    <li class="horizontalB"> <a href="#php" > PHP </a> </li>
+                    <li class="horizontalB"> <a href="#bootstrap" > BOOTSTRAP </a> </li>
+                    <li class="horizontalB"> <a href="#hOW to" > HOW TO </a> </li>
+                    <li class="horizontalB"> <a href="#w3.css" > W3.CSS </a> </li>
+                    <li class="horizontalB"> <a href="#java" > JAVA </a> </li>
+                    <li class="horizontalB"> <a href="#jquery" > JQUERY </a> </li>
+                    <li class="horizontalB"> <a href="#c" > C </a> </li>
+
+                </ul>
+
+                    <h1 style="font-size:40px;"> CSS Opacity/Transparency</h1>
+                    <h2> Transparent Hover Effect </h2>
+                    <p> The  <span style="color: #FF4646;">opacity</span> is often used together with the <span style="color: #FF4646;">:hover</span> selector to change the opacity on mouse-over: </p>
+
+                <div class="imagecontainer">
+                    <img src="/Pictures/Third/illustration-hero-Third2.svg" alt="perfume bottle" class="a">
+                    <img src="/Pictures/Third/illustration-hero-Third2.svg" alt="perfume bottle" class="a">
+                    <img src="/Pictures/Third/illustration-hero-Third2.svg" alt="perfume bottle" class="a">
+                </div>
+
+                    <h4 style="font-size: 25px;"> Example explained </h4>
+
+                    <p>The first CSS block is similar to the code in Example 1. 
+                    In addition, we have added what should happen when a user hovers over one of the images. 
+                    In this case we want the image to NOT be transparent when the user hovers over it. 
+                    The CSS for this is <span style="color: #FF4646;">opacity:1; </span> </p>
+
+                    <p>When the mouse pointer moves away from the image, the image will be transparent again.</p>
+
+                    <p>An example of reversed hover effect:</p>
+
+                    <div class="imagecontainer">
+                        <img src="/Pictures/Third/illustration-hero-Third2.svg" alt="perfume bottle" class="b">
+                        <img src="/Pictures/Third/illustration-hero-Third2.svg" alt="perfume bottle" class="b">
+                        <img src="/Pictures/Third/illustration-hero-Third2.svg" alt="perfume bottle" class="b">
+                    </div>
+
+                    <h2> Transparent Box </h2>
+
+                    <p> When using the opacity property to add transparency to the background of an element, 
+                        all of its child elements inherit the same transparency. 
+                        This can make the text inside a fully transparent element hard to read: 
+                    </p>
+
+                <div class="blockA1"><p>opacity 0.1</p></div>
+                <div class="blockA2"><p>opacity 0.3</p></div>
+                <div class="blockA3"><p>opacity 0.6</p></div>
+                <div class="blockA4"><p>opacity 1 (default)</p></div>
+
+                <h2> Transparency using RGBA </h2>
+
+                <p>
+                    If you do not want to apply opacity to child elements, like in our example above, use RGBA color values. 
+                    The following example sets the opacity for the background color and not the text:
+                </p>
+
+                <div class="blockB1"><p>10% opacity</p></div>
+                <div class="blockB2"><p>30% opacity</p></div>
+                <div class="blockB3"><p>60% opacity</p></div>
+                <div class="blockB4"><p>default</p></div>
+
+                <p>
+                    You learned from our CSS Colors Chapter, that you can use RGB as a color value. 
+                    In addition to RGB, you can use an RGB color value with an alpha channel (RGBA) - which specifies the opacity for a color.
+                    <br>
+                    <br>
+
+                    An RGBA color value is specified with: rgba(red, green, blue, alpha). 
+                    The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+                </p>
+
+                <p> To continue, <a href = "Third.html">click here</a></p>
+                <p> To go back, <a href = "index.html">click here</a></p>
+
+
+
+                </div>
+            </body>
+    </html>

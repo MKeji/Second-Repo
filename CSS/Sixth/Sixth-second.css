@@ -1,0 +1,36 @@
+div#content2{
+    height: 500px;
+}
+div.content2a , div.content2b , div.content2c , div.content2d{
+    
+    width: calc(30%);
+    height: 120px;
+}
+
+div.container{
+    height: 200px;
+    top: 5px;
+}
+
+div.content2a , div.content2d{
+    left: calc(35%);
+}
+
+div.content2a{
+    top: 30px;
+}
+
+div.content2b{
+    left: calc(5%);
+    top: 15px;
+}
+
+div.content2c{
+    left: calc(65%);
+    top: -110px;
+}
+
+div.content2d{
+    top:-100px;
+    
+}

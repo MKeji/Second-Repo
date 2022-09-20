@@ -1,0 +1,107 @@
+body{
+    max-width: 1440px;
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Poppins" , "Sans-serif";
+}
+
+div#content1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 70px;
+}
+
+div#content1a{ 
+    font-size:x-large;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200; 
+}
+
+div#content1b{
+    font-size:x-large;
+    color: hsl(234, 12%, 34%);
+    font-weight: 400; 
+}
+
+div#content1c{
+    width: 400px;
+    font-size: 10px;
+    text-align: center;
+    color:hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+div#content2{
+    height: 450px;
+}
+
+div.content2a , div.content2b , div.content2c , div.content2d{
+    position: relative;
+    border: 2px solid hidden;
+    border-radius: 5px;
+    width: calc(20%);
+    height: 150px;
+}
+
+div.content2a{
+    background-color: hsl(0, 78%, 62%);
+    top: 50px;
+    left: calc(40%);
+}
+
+div.content2b{
+    background-color: hsl(180, 62%, 55%);
+    top: -20px;
+    left: calc(15%);
+}
+
+div.content2c{
+    background-color: hsl(212, 86%, 64%);
+    top: -170px;
+    left: calc(65%);
+}
+
+div.content2d{
+    background-color: hsl(34, 97%, 64%);
+    top: -200px;
+    left: calc(40%);
+}
+
+div.container{
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    height: 147px;
+    bottom: 0px;
+    box-shadow: 0.5px 0.5px 5px hsl(229, 6%, 66%) ; 
+}
+
+h6{
+    position: absolute;
+    color: hsl(234, 12%, 34%);
+    left: 20px;
+}
+
+.content2ai{
+    position: absolute;
+    color: hsl(229, 6%, 66%);
+    top: 50px;
+    left: 20px;
+    width: 80%;
+    font-size: 10px;
+}
+
+img{
+    position: absolute;
+    bottom: 15px;
+    right: 10%;
+    width: 40px;
+}
+
+#foot{
+    width: 100%;
+    height: 300px;
+    background-color: hsl(0, 0%, 98%);
+}

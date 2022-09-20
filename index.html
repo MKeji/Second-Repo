@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+            <title>Product Preview Card Component</title>
+            <script src="https://kit.fontawesome.com/01a5bc20be.js" crossorigin="anonymous"></script>
+            <style>
+                body{background: hsl(30, 38%, 92%);
+                     max-width: 1440px;     
+                }
+
+                div.relative{
+                    position: relative;
+                    top: 200px;
+                    left:500px;
+                    border: 3px solid hsl(30, 38%, 92%);;
+                    border-radius: 10px;
+                    height: 200px;
+                    max-width: 270px;
+                }
+                div.absolute1{
+                    position: absolute;
+                    left: 0;
+                    z-index: -1;
+                }
+                div.absolute2{
+                    background-color: white;
+                    position:absolute;
+                    right: 0;
+                    height: 200px;
+                    width: 140px;
+                    z-index: -1;
+                }
+                .Imagesize{ height: 200px; }
+
+                h2{
+                    
+                    font-family:"Fraunces", "Sans-serif";
+                    color: hsl(212, 21%, 14%);
+                    font-weight: 700;
+                    font-size: 14px;
+                    padding: 0 20px;
+                    }  
+
+                h3{ 
+                    font-family:"Montserrat", "Serif";
+                    color: hsl(228, 12%, 48%);
+                    font-weight: 500;
+                    font-size: 8px;
+                    letter-spacing: 2px;
+                    padding-left: 20px;
+                    }
+
+                p.a{
+                    font-family:"Montserrat", "Serif";
+                    color: hsl(228, 12%, 48%);
+                    font-weight: 500;
+                    font-size: 7px;
+                    padding-left: 20px;
+                }
+
+                p.b{
+                    display: inline;
+                    font-family:"Fraunces", "Sans-serif";
+                    color: hsl(158, 36%, 37%);
+                    font-weight: 700;
+                    font-size: 14px;
+                    padding-left: 20px;
+                }
+
+                div.absolute3{ 
+                    position: absolute;
+                    right: 30px;
+                    bottom: 48px;
+                    font-family:"Montserrat", "Serif";
+                    font-size: 7px;
+                    color:hsl(228, 12%, 48%);  
+                    }
+
+                .button{
+                    position: absolute;
+                    background-color: hsl(158, 36%, 37%);
+                    border-style: hidden;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 5px 30px ;
+                    bottom: 15px;
+                    right: 15px;
+                    font-family:"Montserrat", "Serif";
+                    font-size: 7px;
+                }
+                i{
+                    position: absolute;
+                    right:90px;
+                    bottom: 20px;
+                    color: white;
+                    font-size: 7px;
+
+                }
+
+
+
+               
+            
+            </style>
+        </head>
+            <body>
+                <div class="relative">
+                    <div class="absolute1">
+                        <img src="/Pictures/index/image-product-desktop-Index.jpg" alt="Perfume Picture" class="Imagesize">
+                    </div> 
+                    <div class="absolute2">
+
+                        <h3>PERFUME</h3>
+
+                        <h2>Gabrielle
+                            Essence Eau
+                            De Parfum
+                        </h2>
+
+                        <p class="a">
+                            A floral,solar and voluptuous 
+                            interpretation composed by Oliver Polge,
+                            Perfumer-Creator for the House of CHANEL.
+                        </p>
+
+                        <p class="b">
+                            $149.99     <div class="absolute3"> <del>$169.99</del> </div>
+                        </p>
+                    </div>
+                    
+                         <button class="button"> Add to cart</button> 
+                    
+                         <i class="fa-solid fa-cart-shopping" ></i>
+                </div>
+
+                <p> To continue in the next page, <a href = "Second.html">click here</a></p>
+
+               
+            </body>
+    </html>

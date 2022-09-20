@@ -1,0 +1,109 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image:url(" pattern-background-desktop-Third3.svg");
+    background-repeat: no-repeat;
+    margin-top:calc(10%) ;
+    margin-left: calc(30%);
+    margin-bottom: calc(20%);
+    font-family:"red hat display", "sans-serif";
+    max-width: 1440px;
+}
+
+div.Main{
+    background-color: white;
+    width: 50%;
+    height: 700px;
+    border-radius: 20px;
+}
+
+#flex{
+    display: flex;
+}
+
+#Picture{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+#header{
+    color: hsl(223, 47%, 23%);
+    margin-left: calc(30%);
+}
+
+h3{ font-size: 25px;}
+
+#info1{
+    border: hidden;
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    text-indent: 10px;
+    padding: 0px 40px;
+    margin: 0px 20px;
+}
+
+.info2 , .button1 , .button2{
+    position: relative;
+    width: 70%;
+   
+}
+
+.info2{
+    border: 2px solid hsl(225, 100%, 98%);
+    background-color: hsl(225, 100%, 98%); 
+    margin: 0px auto;
+    border-radius: 10px; 
+    height: 100px;
+}
+
+.info2b , .info2c , .info2d , .info2e{
+    position: absolute;
+}
+
+.info2b{
+    top: 25px;
+    left: 20px;
+}
+
+.info2c{
+    top: 10px;
+    left: 80px;
+    color: hsl(223, 47%, 23%);
+}
+
+.info2d{
+    top: 40px;
+    left: 80px;
+    color: hsl(224, 23%, 55%);
+}
+
+.info2e{
+    top: 40px;
+    right: 20px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+.button1{
+    top: 10px;
+    left: 71px;
+    border: hidden;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px 0px;
+}
+
+.button2{
+    top: 20px;
+    left: 71px;
+    border: hidden;
+    background-color: white;
+    color:hsl(224, 23%, 55%);
+    padding: 15px 0px;
+}
+
+.button1:hover , .button2:hover{
+    cursor: pointer;
+}

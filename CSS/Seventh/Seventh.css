@@ -1,0 +1,101 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    max-width: 1440px;
+}
+
+div#Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height:1440px;
+} 
+
+div.Container1 , div.Container2{
+    width: 30%;
+    height: 30%;
+}
+
+div.Container1{ 
+    background-color: hsl(244, 38%, 16%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+
+div.Container2{ 
+   background-color: hsl(277, 64%, 61%); 
+   border-radius: 0 10px 10px 0;
+}
+
+img{ 
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 0 10px 10px 0;
+ }
+
+ div.Container3{
+    width: 80%;
+    height: 90%;
+ }
+
+ div.Container4 , div.Container5 , div.Container6{
+    width: 100%;
+    height: 25%;
+ }
+
+
+ div.Container5{
+    font-family: "Sans-serif" , "Lexend Deca";
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 5% 0 5% 0;
+ }
+
+ div.Container6{ 
+    display: flex; 
+    flex-direction: row;
+    justify-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+ div.Container7{
+    width: 27%;
+    margin: 2.5% 3% 2.5% 0;
+ }
+
+ div.Container8{
+    width: 27%;
+    margin: 2.5%;
+    padding-left: 2.5%;
+ }
+
+ div.Container9{
+    width: 27%;
+    margin: 2.5% 0 2.5% 2.5%;
+    padding-left: 2.5%;
+ }
+
+ h1{
+    font-family: "Sans-serif" , "Inter" ;
+    font-weight: 700;
+    color: white;
+ }
+
+ span#color{ color: hsl(277, 64%, 61%); }
+
+ h2{ 
+    font-family: "Sans-serif" , "Inter";
+    font-weight: 700;
+    color: white;
+}
+
+span.post{
+    font-family: "Sans-serif" , "Lexend Deca";
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.75);
+}

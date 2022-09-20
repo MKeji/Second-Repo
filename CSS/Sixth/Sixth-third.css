@@ -1,0 +1,44 @@
+div#content1a{  
+    margin-left: 20px;
+}
+
+div#content1b{
+    margin-left: 20px;
+}
+
+div#content1c{
+    width:400px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+div#content2{
+    position: relative;
+    height: 1000px;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 95%;
+}
+
+div.content2a , div.content2b , div.content2c , div.content2d{
+    position:absolute;
+    width: 100%;
+    left: 0%;
+    
+}
+
+div.content2b{
+    top: 250px;
+}
+
+div.content2c{
+    top: 475px;
+}
+
+div.content2d{
+    top: 700px;
+}
+
+
+
+
+

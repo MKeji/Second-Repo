@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "outfit" , "sans-serif";
+
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 330px;
+    width: 220px;
+    margin-left: 45%;
+    margin-top: calc(20%);
+    margin-bottom:45%;
+    padding-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container2{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.picture{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.content1{
+    /**background-color: green; **/
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+}
+
+.content2{
+    /**background-color: green; **/
+    height: 100px;
+    width: 180px;
+    margin-top: 10px;
+}
+
+#edit1{ 
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    text-indent: 3px;
+}
+
+#edit2{ 
+    
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+}
