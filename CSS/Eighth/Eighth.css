@@ -6,7 +6,6 @@ body{
 #Container1{
     width: 100%;
     height: 1000px;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,14 +16,12 @@ body{
     height: 80%;
     background-color:  hsl(0, 0%, 95%);
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 22px 0 rgba(0, 0, 0, 0.19);
-    border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 div.Container3 , div.Container4 , div.Container5{
-    border: 2px solid pink;
     width: 25%;
     height: 60%;
     display: flex;
@@ -46,7 +43,6 @@ div.Container5{
 
 
 div.Content{
-    border: 2px solid red;
     width: 72%;
     height: 80%;
     display: flex;
@@ -54,7 +50,6 @@ div.Content{
 }
 
 div.Content1{
-border: 2px solid blue;
 height: 10%;
 }
 
@@ -63,7 +58,6 @@ div.Content1 img{
 }
 
 div.Content2{
-    border: 2px solid blue;
     height: 60%;
 }
 
@@ -79,7 +73,6 @@ p{
 }
 
 div.Content3 , div.Content4 , div.Content5{
-    border: 2px solid blue;
     height: 30%;
     display: flex;
     align-items: flex-end;
